@@ -1,0 +1,124 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.card-holder{
+    width: 20%;
+    height: 70%;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    position: relative;
+}
+
+.card-image img{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    right: 15px;
+    width: 90%;
+    height: 55%;
+    border-radius: 10px;
+}
+
+.card-text{
+    position: absolute;
+    top: 63%;
+    left: 15px;
+    width: 90%;
+    height: 26%;
+}
+.card-text h3{
+    color: #fff;
+    font-family: 'Outfit';
+    letter-spacing: 2px;
+}
+
+.card-text p{
+    margin-top: 13px;
+    line-height: 20px;
+    color: hsl(215, 13%, 56%);
+    font-family: 'Outfit';
+}
+
+.card-text-eth{
+    margin-top: 10px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+
+.card-text-eth .eth{
+    color: hsl(178, 100%, 50%);
+    font-family: 'Outfit';
+    margin-left: 5px;
+}
+
+.svg-clock{
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg-clock .counting{
+    color: hsl(215, 18%, 50%);
+    margin-left: 4px;
+    font-family: 'Outfit';
+}
+
+.border-bottom{
+    position: absolute;
+    top: 100%;
+    border-bottom: 1px solid rgb(104, 104, 104);
+    width: 100%;
+}
+
+.img-icon{
+    position: absolute;
+    top: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img-icon img{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.img-icon p{
+margin-left: 10px;
+
+    
+}
+
+.icon-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 7px;
+    color: #fff;
+    font-family: 'Outfit';
+    margin-top: 11px;
+}
